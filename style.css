@@ -1,0 +1,55 @@
+header{
+  background-image:url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  height: 295px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left; 
+  }
+.body {
+  text-align: start;
+  width: 800px;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1.5em;
+  font-family: 'Josefin Slab', serif;
+}
+ul{
+  text-align: start;
+  margin-left:0.4%;
+  margin-right:20%;
+}
+.text {
+  position: absolute;
+  bottom: 370px;
+  left: 280px;
+  font-size:25px;    
+}
+.line{
+  display:inline;
+}
+blockquote {
+  background-color: #222;
+  color: white;
+  font-size: 40px;
+  padding: 40px;
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+  width: 65%
+}
+blockquote::before {
+  content: '“';
+  display: block;
+  font-size: 120px;
+  margin: 0;
+  height: 50px;
+  position: absolute;
+  top: -20px;
+  left: 3px;}
+section {
+  font-family: 'Josefin Slab', serif;
+}
+.notable {
+  font-family: 'Montserrat', sans-serif;
+}
